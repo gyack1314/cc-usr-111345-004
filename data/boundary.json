@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "tables": {
+    "facts": {
+      "file": "boundary-facts.jsonl",
+      "sha256": "40788c82df53dbbd8b8fca7c3f2d8831a0cd4f3ee1f3922013089ee5392da8bc",
+      "bytes": 205,
+      "rows": 4,
+      "fields": [
+        "id",
+        "tenant",
+        "day",
+        "cost"
+      ]
+    },
+    "cache_catalog": {
+      "file": "boundary-cache_catalog.jsonl",
+      "sha256": "a966cfc26af49eef6c5306c1baecc79ea099518570b214593e4390c9b63669b6",
+      "bytes": 229,
+      "rows": 2,
+      "fields": [
+        "id",
+        "snapshot",
+        "groups",
+        "days",
+        "states"
+      ]
+    },
+    "requests": {
+      "file": "boundary-requests.jsonl",
+      "sha256": "0c86317d81a1b8dd2e86fd4358df1acea1f0c67b4253e1a6a05ad3a240303379",
+      "bytes": 106,
+      "rows": 1,
+      "fields": [
+        "id",
+        "snapshot",
+        "groups",
+        "from_day",
+        "to_day",
+        "aggregate"
+      ]
+    }
+  }
+}

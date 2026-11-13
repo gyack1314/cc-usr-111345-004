@@ -1,0 +1,2 @@
+{"days": [1], "groups": ["tenant", "day"], "id": "c1", "snapshot": "v1", "states": ["sum_cost", "nonnull_cost"]}
+{"days": [1, 2], "groups": ["tenant", "day"], "id": "c2", "snapshot": "v1", "states": ["sum_cost", "nonnull_cost"]}

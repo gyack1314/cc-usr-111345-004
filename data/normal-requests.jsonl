@@ -1,0 +1,1 @@
+{"aggregate": "avg_cost", "from_day": 1, "groups": ["tenant"], "id": "q1", "snapshot": "v1", "to_day": 3}
